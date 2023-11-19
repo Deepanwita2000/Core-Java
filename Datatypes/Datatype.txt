@@ -1,0 +1,51 @@
+Datatype:-
+
+1) Write a Java program to print an int, a double and a char on screen.
+2) Write a program to print the area of a rectangle of sides 2 and 3 units respectively.
+3) Write a program to print the product of the numbers 8.2 and 6.
+
+
+Solutions:-
+
+1.Ans) 
+	public class DataTypes 
+     {
+        public static void main(String[] args) 
+	{
+        int i = 10;
+        double d = 5.75;
+        char c = 'A';
+
+        System.out.println("Integer value: " + i);
+        System.out.println("Double value: " + d);
+        System.out.println("Character value: " + c);
+
+	}
+     }
+
+2.Ans)
+	public class Area 
+	{
+
+         public static void main(String[] args)
+	 {
+      	   double length = 2; // Length of the rectangle
+           double width = 3;  // Width of the rectangle
+            double area = length * width;
+          System.out.println("The area of the rectangle with sides of length " + length + " units and width " + width + " units is: " +     area 	+ " square units");
+	}
+	}
+
+3.Ans)
+	public class Product 
+	{
+	public static void main(String[] args)
+	 {
+          double num1 = 8.2;
+         int num2 = 6;
+         double product = num1 * num2;
+         System.out.println("The product of " + num1 + " and " + num2 + " is: " + product);
+	}
+	}
+
+
